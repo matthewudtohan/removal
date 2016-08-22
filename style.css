@@ -2,28 +2,30 @@ body {
     margin: 0px;
     padding: 0px;
     background-color: gold;
-    /*background-image: url('img/blue.jpg');
-    background-attachment: fixed;*/
     color: #000305;
     font-size:87.5%;
     font-family: Arial, 'Lucida Sans Unicode';
     text-align:left;
 }
 
-
+#header {
+    margin-top: 5px;
+    margin-bottom:5px;
+}
 
 .logo {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size:35px;
-    text-transform: uppercase;
-    font-weight: bold;
-    color: white;
+    height: 60px;
+    width: 100%;
+    background-color: white; 
+    margin-bottom: 20px;
     margin-left:0;
     padding-top: 20px;
     padding-left: 20px;
     text-align: left;
-    letter-spacing: -2px;
-    width: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;   
 }
 
 .punchline {
@@ -37,15 +39,6 @@ body {
 
 a {
     text-decoration: none;
-}
-
-a:link, a:visited {
-    color: #ff8c00;
-}
-
-a:hover, a:active {
-    background-color: #ff8c00;
-    color: #ffffff;
 }
 
 .body {
@@ -62,13 +55,13 @@ a:hover, a:active {
 }
 
 .mainHeader nav{
-    background-color: #2f4f4f;
+    background-color: brown;
     height: 40px;
     border-radius: 5px;
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
-    margin-bottom: 0;
-    margin-top:0;
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 .mainHeader nav ul{
@@ -90,7 +83,7 @@ a:hover, a:active {
 
 .mainHeader nav a:hover, .mainHeader nav a:active,
 .mainHeader nav .active a:link, .mainHeader nav.active a.visited{
-    background-color: #FF8C00;
+    background-color: darkgoldenrod;
     text-shadow:none;
 }
 
@@ -112,92 +105,78 @@ a:hover, a:active {
         float:left;
 }
     
-.topcontent{
-        background-color: #fff;
-        border-radius:5px;
-        -moz-border-radius: 5px;
-        -webkit-border-radius: 5px;
-        padding: 3% 5%;
-        /*margin-top: 2%;*/
-}   
-    
-.bottomcontent {
-    background-color: #fff;
-    border-radius:5px;
-    -moz-border-radius:5px;
-    -webkit-border-radius: 5px;
-    padding: 3% 5%;
-    margin-top: 2%;
-}    
 
+.bottomcontent1 {
+    background-color: lightskyblue;
+    border-radius:15px;
+    -moz-border-radius:15px;
+    -webkit-border-radius: 15px;
+    padding: 5% 8%;
+    margin-top: 2%;
+    float: center;
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    
+}    
 .top-sidebar {
-    width: 23%;
-    float:left;
-    background-color: #fff;
-    border-radius:5px;
+    width: 20%;
+    float: right;
+ border-radius:5px;
     -moz-border-radius:5px;
     -webkit-border-radius: 5px;
     margin: 0 0 1% 1%;
     padding: 2% 3%;
 }
 
-.post-info {
-    font-style: italic;
-    color: #999;
-    font-size: 90%;
-}
-
-.middle-sidebar {
-    width: 23%;
-    float:left;
-    background-color: white;
+.bottomcont{
+    background-color: lightskyblue;
     border-radius:5px;
     -moz-border-radius:5px;
     -webkit-border-radius: 5px;
-    margin-left: 1%;
-    margin-bottom: 1%;
-    padding: 2% 3%;     
+    padding: 3% 5%;
+    margin-top: 2%;
+    float: right;
+} 
+.content {
+    width: 84%;
+    height: 600px;
+    background-color: lightskyblue;
+    border-radius:15px;
+    -moz-border-radius:15px;
+    -webkit-border-radius: 15px;
+    padding: 5% 8%;
 }
-
-.bottom-sidebar {
-    width: 23%;
-    float:left;
-    background-color: white;
-    border-radius:5px;
-    -moz-border-radius:5px;
-    -webkit-border-radius: 5px;
-    margin-left: 1%;
-    margin-bottom: 1%;
-    padding: 2% 3%;
-}
-
-.mainFooter {
-    height: 50px; 
-    width: 100%;
-    background-color: #2f4f4f;
-    float: left;
-    border-radius:5px;
-    -moz-border-radius:5px;
-    -webkit-border-radius: 5px;
-    margin-top: 0;
-    margin-bottom: 2%;
-}
-
-.mainFooter p{
-    width: 92%;
-    margin: 10px auto;
-    color: #fff;
-}
-
-/*CSS FOR THE ABOUT PAGE*/
-.aboutcontent {
-    width: 98%;
-    float:left;
-    background-color: #fff;
-    border-radius: 5px;
-    -moz-border-radius: 5px;
-    -webkit-border-radius: 5px;
-    padding: 1% 1%;
-    margin-bottom: 1%;
+.bottocont{
+  background-color: lightskyblue;
+    border-radius:15px;
+    -moz-border-radius:15px;
+    -webkit-border-radius: 15px;
+    padding: 3% 5%;
+    margin-top: 2%;
+    float: center;
+} 
     
+
+.bottomcontent {
+    background-color: lightskyblue;
+    color: black;
+    border-radius:15px;
+    -moz-border-radius:15px;
+    -webkit-border-radius: 15px;
+    padding: 5% 8%;
+    margin-top: 2%;
+    float: center;
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+}
+
+.bc {
+    background-color: lightskyblue;
+    color: black;
+    border-radius:15px;
+    -moz-border-radius:15px;
+    -webkit-border-radius: 15px;
+    padding: 5% 8%;
+    margin-top: 2%;
+    float: center;
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    font-size: 20px;
 }
